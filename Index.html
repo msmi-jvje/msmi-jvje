@@ -17,21 +17,21 @@
         <!-- Toolbar-->
         <!-- A grey horizontal navbar that becomes vertical on small screens -->
         <nav class="navbar navbar-expand-sm bg-dark">
-            <form class="form-inline">
-                <div class="d-flex flex-row">
+            <form>
+                <div class="d-flex justify-content-between">
                     <!--<div class="col-11" >-->
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Lastname, Firstname....">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fa fa-search"></i></span>
-                            </div>
+                    <div class="p-2">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control search-control" placeholder="ex. Lastname, Firstname">
                         </div>
-                    <!--</div>-->
-                    <!--<div class="col-1">-->
-                    <div class="d-flex flex-row-reverse">
+                    </div>    
+                    <div class="p-2">
                         <button class="btn btn-success" type=""><i class="fas fa-plus-square"></i></button>
                     </div>
                 </div>
+                    <!--</div>-->
+                    <!--<div class="col-1">-->
             </form>
         </nav>
 
