@@ -1,0 +1,17 @@
+
+
+body {
+    
+    margin:auto
+
+}
+
+.container {
+    margin-top: 25px;
+}
+
+nav {
+    border-radius: 10px;
+    background-color: midnightblue;
+    padding:10px;
+}
